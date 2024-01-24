@@ -33,16 +33,16 @@ let s_planet=null;
 function preload()
 {
   //загружаем картинки солнца и планет
-  sun_image = loadImage("source/img/The_Sun.jpg")
-  mercury_image = loadImage("source/img/mercury.jpg")
-  venera_image = loadImage("source/img/venera.jpg")
-  ground_image = loadImage("source/img/ground.jpg")
-  mars_image = loadImage("source/img/mars.jpg")
-  jupiter_image = loadImage("source/img/jupiter.jpg")
-  saturn_image = loadImage("source/img/Saturn.jpg")
-  uran_image = loadImage("source/img/uran.jpg")
-  neptune_image = loadImage("source/img/neptune.jpg")
-  planet_image = loadImage("source/img/Planet.jpg")
+  sun_image = loadImage("./source/img/The_Sun.jpg")
+  mercury_image = loadImage("./source/img/mercury.jpg")
+  venera_image = loadImage("./source/img/venera.jpg")
+  ground_image = loadImage("./source/img/ground.jpg")
+  mars_image = loadImage("./source/img/mars.jpg")
+  jupiter_image = loadImage("./source/img/jupiter.jpg")
+  saturn_image = loadImage("./source/img/Saturn.jpg")
+  uran_image = loadImage("./source/img/uran.jpg")
+  neptune_image = loadImage("./source/img/neptune.jpg")
+  planet_image = loadImage("./source/img/Planet.jpg")
 }
 //стандартная функция P5.js setup() вызывается один раз при запуске программы. 
 //Она используется для определения начальных свойств среды, таких как размер экрана и цвет фона, и для загрузки мультимедийных данных
